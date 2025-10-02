@@ -3,6 +3,7 @@ package Pojo;
 public class coordinates {
 	private double lat;
 	private double lng;
+	private string GIT;
 	public double getLat() {
 		return lat;
 	}
