@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Demo.REST.JIRA">
+      <class name="com.Demo.REST.Ecommerce">
         <methods>
-          <include name="CreateBug"/>
+          <include name="TestEcommerce"/>
         </methods>
-      </class> <!-- com.Demo.REST.JIRA -->
+      </class> <!-- com.Demo.REST.Ecommerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

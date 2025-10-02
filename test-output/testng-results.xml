@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-28T18:24:12 IST" name="Default suite" finished-at="2025-09-28T18:24:17 IST" duration-ms="5083">
+  <suite started-at="2025-10-02T09:05:43 IST" name="Default suite" finished-at="2025-10-02T09:05:48 IST" duration-ms="4871">
     <groups>
     </groups>
-    <test started-at="2025-09-28T18:24:12 IST" name="Default test" finished-at="2025-09-28T18:24:17 IST" duration-ms="5083">
-      <class name="com.Demo.REST.JIRA">
-        <test-method signature="CreateBug()[pri:0, instance:com.Demo.REST.JIRA@4550bb58]" started-at="2025-09-28T18:24:12 IST" name="CreateBug" finished-at="2025-09-28T18:24:17 IST" duration-ms="5046" status="PASS">
+    <test started-at="2025-10-02T09:05:43 IST" name="Default test" finished-at="2025-10-02T09:05:48 IST" duration-ms="4871">
+      <class name="com.Demo.REST.EcommerceBB">
+        <test-method signature="TestEcommerce()[pri:0, instance:com.Demo.REST.EcommerceBB@7d8995e]" started-at="2025-10-02T09:05:43 IST" name="TestEcommerce" finished-at="2025-10-02T09:05:48 IST" duration-ms="4838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateBug -->
-      </class> <!-- com.Demo.REST.JIRA -->
+        </test-method> <!-- TestEcommerce -->
+      </class> <!-- com.Demo.REST.EcommerceBB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
