@@ -42,7 +42,7 @@ public class Baisc {
 		.then().log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
 		
 		
-		String RESP1 = given().queryParam("key", "qaclick123").queryParam("place_id", place)
+		String RESP1 = given().log().all().queryParam("key", "qaclick123").queryParam("place_id", place)
 		.when().get("/maps/api/place/get/json")
 		.then().log().all().extract().response().asString();
 		
