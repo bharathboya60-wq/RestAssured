@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Demo.REST.Ecommerce">
+      <class name="com.Demo.REST.GraphQL">
         <methods>
-          <include name="TestEcommerce"/>
+          <include name="TestGraphQL"/>
         </methods>
-      </class> <!-- com.Demo.REST.Ecommerce -->
+      </class> <!-- com.Demo.REST.GraphQL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
