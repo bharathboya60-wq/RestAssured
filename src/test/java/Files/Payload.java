@@ -104,4 +104,6 @@ public class Payload {
 		String Payload = "{\"query\":\"mutation {\\n  createLocation(location: {name: \\\"RestAssuredKondapur\\\", type: \\\"Aiswarya\\\", dimension: \\\"3040\\\"}) {\\n    id\\n  }\\n  createCharacter(character:{name:\\\"NaveMan\\\", \\n    type: \\\"AquaMan\\\",\\n  \\tstatus: \\\"Unbeatble\\\",\\n  \\tspecies: \\\"Village\\\",\\n  \\tgender:\\\"AlphaaMale\\\",\\n  \\timage:\\\"Cool\\\",\\n    originId: 1334,\\n  \\tlocationId: 24948})\\n  {\\n    id\\n  }\\n  createEpisode(episode: {name: \\\"Deadly Attack\\\", air_date: \\\"5_10_2025\\\", episode:\\\"FInal\\\"})\\n  {\\n    id\\n  }\\n}\\n\",\"variables\":null}";
 		return Payload;
 	}
+	
+	
 }
